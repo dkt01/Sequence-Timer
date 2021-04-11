@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Sequence-Timer/static/css/main.a537e94e.chunk.css",
-    "main.js": "/Sequence-Timer/static/js/main.30a528e7.chunk.js",
-    "main.js.map": "/Sequence-Timer/static/js/main.30a528e7.chunk.js.map",
+    "main.css": "/Sequence-Timer/static/css/main.e6a4e74f.chunk.css",
+    "main.js": "/Sequence-Timer/static/js/main.ca1fea51.chunk.js",
+    "main.js.map": "/Sequence-Timer/static/js/main.ca1fea51.chunk.js.map",
     "runtime-main.js": "/Sequence-Timer/static/js/runtime-main.01107da4.js",
     "runtime-main.js.map": "/Sequence-Timer/static/js/runtime-main.01107da4.js.map",
     "static/js/2.813a551b.chunk.js": "/Sequence-Timer/static/js/2.813a551b.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.2da5b58f.chunk.js": "/Sequence-Timer/static/js/3.2da5b58f.chunk.js",
     "static/js/3.2da5b58f.chunk.js.map": "/Sequence-Timer/static/js/3.2da5b58f.chunk.js.map",
     "index.html": "/Sequence-Timer/index.html",
-    "static/css/main.a537e94e.chunk.css.map": "/Sequence-Timer/static/css/main.a537e94e.chunk.css.map",
+    "static/css/main.e6a4e74f.chunk.css.map": "/Sequence-Timer/static/css/main.e6a4e74f.chunk.css.map",
     "static/js/2.813a551b.chunk.js.LICENSE.txt": "/Sequence-Timer/static/js/2.813a551b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.01107da4.js",
     "static/js/2.813a551b.chunk.js",
-    "static/css/main.a537e94e.chunk.css",
-    "static/js/main.30a528e7.chunk.js"
+    "static/css/main.e6a4e74f.chunk.css",
+    "static/js/main.ca1fea51.chunk.js"
   ]
 }
