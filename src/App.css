@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,103 @@
   color: white;
 }
 
+.App-body {
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 280px;
+  margin: auto;
+  background-color: white
+}
+
+html,
+#background {
+  background-color: #282c34;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #106ba3;
+}
+
+.Stopwatch-display {
+  padding: 10px 0;
+  font-size: 48px;
+}
+
+.SequenceElementBlock {
+  border-radius: 15px;
+  padding: 0px;
+  width: 220px;
+  margin: auto;
+}
+
+.Block-inactive {
+  border: 3px solid #cccccc;
+}
+
+.Block-high,
+.Block-med,
+.Block-low {
+  width: 260px;
+}
+
+.Block-high {
+  border: 3px solid #7d8f29;
+  background: #7d8f29;
+}
+.Block-med {
+  border: 3px solid #fdca44;
+  background: #fdca44;
+}
+.Block-low {
+  border: 3px solid #ab0730;
+  background: #ab0730;
+}
+.Block-expired {
+  border: 3px solid #ab0730;
+  background: #cccccc;
+}
+
+.SequenceElementTitle {
+  line-height: 0.3;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.Title-high,
+.Title-med,
+.Title-low {
+  font-size: 15pt;
+}
+
+.Title-low {
+  color: white;
+}
+
+.SequenceElementTimeRemaining {
+  line-height: 0.3;
+  font-size: 9pt;
+}
+
+.Time-high,
+.Time-med,
+.Time-low {
+  font-size: 14pt;
+}
+
+.Time-low {
+  color: white;
 }
