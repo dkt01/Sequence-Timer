@@ -54,6 +54,7 @@ button:hover {
   padding: 0px;
   width: 220px;
   margin: auto;
+  transition: all .3s linear
 }
 
 .Block-inactive {

@@ -29,8 +29,10 @@ class SequenceElement extends Component {
     let remainingMinutes = ("0" + (Math.floor(timeRemaining_s / 60) % 60)).slice(-2);
     let totalSeconds = ("0" + (totalTime_s % 60)).slice(-2);
     let totalMinutes = ("0" + (Math.floor(totalTime_s / 60) % 60)).slice(-2);
+    const safariRenderHack = { opacity : timeRemaining_s % 2 ? 0.99 : 1};
     return (
-      <div className={"SequenceElementBlock Block-" + this.props.status}>
+      <div className={"SequenceElementBlock Block-" + this.props.status}
+           style={safariRenderHack}>
         <p className={"SequenceElementTitle Title-" + this.props.status}>
           {this.props.name}
         </p>
