@@ -4,6 +4,7 @@ import React from "react"
 import Stopwatch from "./components/Stopwatch"
 import SequenceTimeline from "./components/SequenceTimeline"
 import SequenceElement from "./components/SequenceElement"
+import registerServiceWorker from "./registerServiceWorker"
 
 class App extends React.Component {
   state = {time_ms : 0}
@@ -15,19 +16,6 @@ class App extends React.Component {
   render() {
     return (
       <body>
-        <script>
-          if ('serviceWorker' in navigator){
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('serviceWorker.js').then(function(registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-              }, function(err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
-              });
-            })
-          }
-        </script>
         <div className="App App-body">
           <Stopwatch onChange={this.updateTime_ms}/>
           <SequenceTimeline elapsedSeconds={Math.floor(this.state.time_ms/1000)}>
@@ -52,4 +40,5 @@ class App extends React.Component {
   }
 }
 
+registerServiceWorker();
 export default App;
