@@ -4,13 +4,18 @@ Adapted from https://github.com/peterdurham/timers-demo/blob/master/src/componen
 
 import React, { Component } from "react";
 import "../App.css";
+import NoSleep from 'nosleep.js';
 
 class Stopwatch extends Component {
-  state = {
-    timerOn: false,
-    timerStart: 0,
-    timerTime: 0
-  };
+  constructor(props) {
+    super(props)
+    this.noSleep = new NoSleep();
+    this.state = {
+      timerOn: false,
+      timerStart: 0,
+      timerTime: 0
+    };
+  }
 
   startTimer = () => {
     this.setState({
@@ -18,6 +23,7 @@ class Stopwatch extends Component {
       timerTime: this.state.timerTime,
       timerStart: Date.now() - this.state.timerTime
     });
+    this.noSleep.enable();
     this.timer = setInterval(() => {
       this.setState({
         timerTime: Date.now() - this.state.timerStart
@@ -31,6 +37,7 @@ class Stopwatch extends Component {
 
   stopTimer = () => {
     this.setState({ timerOn: false });
+    this.noSleep.disable();
     clearInterval(this.timer);
   };
 
