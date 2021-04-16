@@ -1,10 +1,8 @@
 import "./App.css";
-import "./manifest.json";
 import React from "react"
 import Stopwatch from "./components/Stopwatch"
 import SequenceTimeline from "./components/SequenceTimeline"
 import SequenceElement from "./components/SequenceElement"
-import registerServiceWorker from "./registerServiceWorker"
 
 class App extends React.Component {
   state = {time_ms : 0}
@@ -40,5 +38,4 @@ class App extends React.Component {
   }
 }
 
-registerServiceWorker();
 export default App;
