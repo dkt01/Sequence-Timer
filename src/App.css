@@ -16,9 +16,21 @@
 .App-body {
   border-radius: 15px;
   padding: 40px;
-  max-width: 280px;
+  width: 280px;
+  min-height: 510px;
   margin: auto;
-  background-color: white
+  background-color: white;
+}
+
+@media (min-height:600px)
+{
+  .App-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 }
 
 html,
