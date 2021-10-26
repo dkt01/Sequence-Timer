@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Sequence-Timer/static/css/main.043caece.chunk.css",
-    "main.js": "/Sequence-Timer/static/js/main.b16b94d6.chunk.js",
-    "main.js.map": "/Sequence-Timer/static/js/main.b16b94d6.chunk.js.map",
+    "main.js": "/Sequence-Timer/static/js/main.fce83e54.chunk.js",
+    "main.js.map": "/Sequence-Timer/static/js/main.fce83e54.chunk.js.map",
     "runtime-main.js": "/Sequence-Timer/static/js/runtime-main.785274f8.js",
     "runtime-main.js.map": "/Sequence-Timer/static/js/runtime-main.785274f8.js.map",
-    "static/js/2.59e2e5fd.chunk.js": "/Sequence-Timer/static/js/2.59e2e5fd.chunk.js",
-    "static/js/2.59e2e5fd.chunk.js.map": "/Sequence-Timer/static/js/2.59e2e5fd.chunk.js.map",
+    "static/js/2.d05d30c1.chunk.js": "/Sequence-Timer/static/js/2.d05d30c1.chunk.js",
+    "static/js/2.d05d30c1.chunk.js.map": "/Sequence-Timer/static/js/2.d05d30c1.chunk.js.map",
     "index.html": "/Sequence-Timer/index.html",
     "service-worker.js": "/Sequence-Timer/service-worker.js",
     "service-worker.js.map": "/Sequence-Timer/service-worker.js.map",
     "static/css/main.043caece.chunk.css.map": "/Sequence-Timer/static/css/main.043caece.chunk.css.map",
-    "static/js/2.59e2e5fd.chunk.js.LICENSE.txt": "/Sequence-Timer/static/js/2.59e2e5fd.chunk.js.LICENSE.txt"
+    "static/js/2.d05d30c1.chunk.js.LICENSE.txt": "/Sequence-Timer/static/js/2.d05d30c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.785274f8.js",
-    "static/js/2.59e2e5fd.chunk.js",
+    "static/js/2.d05d30c1.chunk.js",
     "static/css/main.043caece.chunk.css",
-    "static/js/main.b16b94d6.chunk.js"
+    "static/js/main.fce83e54.chunk.js"
   ]
 }
