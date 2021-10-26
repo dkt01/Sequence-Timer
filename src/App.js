@@ -28,9 +28,9 @@ class App extends React.Component {
             <SequenceElement name="Robot Design Q&A"
                              totalTime_s={300}/>
             <SequenceElement name="Core Values Q&A"
-                             totalTime_s={240}/>
+                             totalTime_s={180}/>
             <SequenceElement name="Team Feedback"
-                             totalTime_s={240}/>
+                             totalTime_s={300}/>
           </SequenceTimeline>
         </div>
       </body>
