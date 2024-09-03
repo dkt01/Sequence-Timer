@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Sequence-Timer/static/css/main.e734ddd2.css",
-    "main.js": "/Sequence-Timer/static/js/main.bd865510.js",
+    "main.js": "/Sequence-Timer/static/js/main.017f6ee6.js",
     "service-worker.js": "/Sequence-Timer/service-worker.js",
     "index.html": "/Sequence-Timer/index.html",
     "main.e734ddd2.css.map": "/Sequence-Timer/static/css/main.e734ddd2.css.map",
-    "main.bd865510.js.map": "/Sequence-Timer/static/js/main.bd865510.js.map"
+    "main.017f6ee6.js.map": "/Sequence-Timer/static/js/main.017f6ee6.js.map"
   },
   "entrypoints": [
     "static/css/main.e734ddd2.css",
-    "static/js/main.bd865510.js"
+    "static/js/main.017f6ee6.js"
   ]
 }
